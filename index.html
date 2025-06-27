@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biodata - Binay Chettri</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <a onclick="showSection('school')">School</a>
+        <a onclick="showSection('biodata')" class="selected">Biodata</a>
+        <a onclick="showSection('contact')">Contact</a>
+        <a onclick="showSection('other')">Other Info</a>
+        <a onclick="showSection('wanted')">Wanted</a>
+    </nav>
+
+    <section id="biodata" class="active">
+        <center>
+            <h1>Bio Data of Binay Chettri</h1>
+            <p><strong>Name:</strong> Binay Chettri</p>
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>Address:</strong> Butwal, Nepal</p>
+        </center>
+    </section>
+
+    <section id="contact">
+        <center>
+            <h2>Contact Details</h2>
+            <p><strong>Phone:</strong> 9876543210</p>
+            <p><strong>Email:</strong> binay@example.com</p>
+            <p>If you want to message me, enter your name and email ID:</p>
+            <input type="text" id="userName" placeholder="Enter your name" /><br />
+            <input type="email" id="userEmail" placeholder="Enter your email" /><br />
+            <button onclick="submitForm()">Submit</button>
+            <p id="response"></p>
+        </center>
+    </section>
+
+    <section id="other">
+        <center>
+            <h2>Other Information</h2>
+            <p><strong>Hobbies:</strong> Football, Coding</p>
+            <p><strong>Skills:</strong> HTML, C#, Python (beginner)</p>
+        </center>
+    </section>
+
+    <section id="school">
+        <center>
+            <h2>Read on Butwal-15 Mainapur</h2>
+            <h3>Siddhi Vinayak Secondary School</h3>
+            <h3>Reading at Siddhi Vinayak Secondary School </h3>
+        </center>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
